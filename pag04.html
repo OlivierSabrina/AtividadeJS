@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"
+        content="width=device-width, initial-scale=1.0">
+        <title>pagina 04</title>
+    </head>
+    <body>
+        <script> 
+       var nome=prompt("digite seu nome");
+       //comando confirm
+       var res=confirm("ola "+nome+" deseja continuar?");
+       if(res)
+       {
+        //atribuindo ano atual a variável anoAtual
+        var anoAtual=prompt("digite o ano atual");
+        //pegando um valor do usuario com prompt
+        var anoNasc=prompt("digite seu ano de nascimento");
+        var idade = anoAtual-anoNasc;
+        alert("sua idade é "+idade+" anos");
+       }
+        </script>
+    </body>
+</html>
